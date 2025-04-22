@@ -1,0 +1,7 @@
+public class optimizedDigicount {
+    public static void main(String[] args) {
+        int n= 100;
+        int count=(int)(Math.log(n)+1);
+        System.out.println("the Digitcount is:"+count);
+        }
+}
