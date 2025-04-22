@@ -1,0 +1,12 @@
+public class NthFibonacci {
+  public static void main(String[] args) {
+      int N = 10; 
+      int a = 0, b = 1, temp;
+      for (int i=2; i <= N; i++) {
+          temp = a + b;
+          a = b;
+          b = temp;
+      }
+      System.out.println("The " + N + "th Fibonacci number is: " + b);
+  }
+}
